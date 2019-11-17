@@ -25,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_custom_fonts);
 
+        /*
+        Methods to change styles of components in to controllers
+
+        I change the styles with CustomButton and CustomTextView class.
+
         ambleBold=(TextView)findViewById(R.id.ambleBold);
         ambleLight=(TextView)findViewById(R.id.ambleLight);
         ambleRegular=(TextView)findViewById(R.id.ambleRegular);
@@ -38,5 +43,6 @@ public class MainActivity extends AppCompatActivity {
         openSansRegular.setTypeface(Typeface.createFromAsset(getAssets(), O_REGULAR));
         openSansItalic.setTypeface(Typeface.createFromAsset(getAssets(), O_ITALIC));
         btn.setTypeface(Typeface.createFromAsset(getAssets(), P_REGULAR));
+         */
     }
 }

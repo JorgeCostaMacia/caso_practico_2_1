@@ -4,29 +4,29 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.widget.Button;
 
 /**
- * Class to manage styles of textview defined in to layouts.
+ * Class to manage styles of buttons defined in to layouts.
  */
-public class CustomTextView extends TextView {
+public class CustomButton extends Button {
 
     private int typefaceType;
     private TypeFactory mFontFactory;
 
-    public CustomTextView(Context context, AttributeSet attrs) {
+    public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         applyCustomFont(context, attrs);
     }
 
-    public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
+    public CustomButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
         applyCustomFont(context, attrs);
     }
 
-    public CustomTextView(Context context) {
+    public CustomButton(Context context) {
         super(context);
     }
 
