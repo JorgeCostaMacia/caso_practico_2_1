@@ -8,8 +8,8 @@ import android.widget.TextView;
 import android.graphics.Typeface;
 
 public class MainActivity extends AppCompatActivity {
-    public TextView ambleBold, ambleLight, ambleRegular, openSansItalic, openSansRegular;
-    public Button btn;
+    TextView ambleBold, ambleLight, ambleRegular, openSansItalic, openSansRegular;
+    Button btn;
 
     private String A_BOLD= "Amble-Bold.ttf";
     private String A_LIGHT="Amble-Light.ttf";
